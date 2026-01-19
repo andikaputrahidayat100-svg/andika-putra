@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodata Andika Putra Hidayat</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0a3d62, #1e90ff, #74b9ff);
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      padding: 15px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    nav h1 {
+      font-size: 22px;
+      color: #a9d6ff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #a9d6ff;
+    }
+
+    section {
+      padding: 100px 12%;
+      min-height: 100vh;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .intro-text h2 {
+      font-size: 38px;
+      margin-bottom: 15px;
+      color: #dff0ff;
+    }
+
+    .intro img {
+      width: 260px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .skill-card {
+      background: rgba(255,255,255,0.12);
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .contact a {
+      color: #dff0ff;
+      border: 2px solid #dff0ff;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: rgba(0,0,0,0.25);
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h1>Andika</h1>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="intro" data-aos="fade-right">
+    <div class="intro-text">
+      <h2>Halo, Saya Andika Putra Hidayat</h2>
+      <p>
+        Seorang pelajar yang antusias di bidang teknologi, jaringan komputer, dan desain web.
+      </p>
+    </div>
+
+    <!-- FOTO BARU -->
+    <a href="https://ibb.co.com/FkCDcsRC" target="_blank">
+      <img src="https://i.ibb.co.com/xKd7wmxd/IMG-20260115-212407-592.jpg" alt="Foto Andika">
+    </a>
+  </section>
+
+  <section id="about">
+    <h2 style="text-align:center; color:#a9d6ff;">Tentang Saya</h2>
+    <p style="text-align:center;">
+      Saya mempunyai ketertarikan di dunia teknologi, desain digital, dan Microsoft.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2 style="text-align:center; color:#a9d6ff;">Keahlian</h2>
+    <div class="skills">
+      <div class="skill-card">HTML & CSS</div>
+      <div class="skill-card">Web Design</div>
+      <div class="skill-card">Mikrotik</div>
+      <div class="skill-card">UI / UX</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="color:#a9d6ff;">Kontak</h2>
+    <a href="mailto:kennedysimbolon589@gmail.com">Email</a><br><br>
+    <a href="https://www.instagram.com/andikaputrahidayat25" target="_blank">Instagram</a>
+  </section>
+
+  <footer>
+    © 2025 Andika Putra Hidayat
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+
+</body>
+</html>
